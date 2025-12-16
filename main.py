@@ -11,8 +11,8 @@ SCREEN_WIDTH = 800
 SCREEN_HEIGHT = 600
 FPS = 60
 GRAVITY = 5
-BASKET_SPEED = 8
-FRUIT_SPAWN_RATE = 30  # setiap 30 frame, ada buah baru
+BASKET_SPEED = 30
+FRUIT_SPAWN_RATE = 60  # setiap 30 frame, ada buah baru
 
 def load_image(filename):
     """Memuat gambar dari folder assets."""
